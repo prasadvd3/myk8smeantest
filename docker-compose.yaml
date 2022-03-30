@@ -2,7 +2,7 @@ version: '3'
 services:
   myk8smeantest:
    restart: always
-   image: prasadvd3/myk8smeantest:0.1.2
+   image: 561931347622.dkr.ecr.us-east-2.amazonaws.com/myk8smeantest:0.1.2
    ports:
    - 3000:3000
   mongodb:
